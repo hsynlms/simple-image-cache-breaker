@@ -1,0 +1,24 @@
+{
+	"name": "Simple Image Cache Breaker",
+	"version": "1.0",
+	"description": "Simple image cache breaker by versioning them",
+  "author": "Huseyin Elmas",
+  "manifest_version": 2,
+  "permissions": [
+    "<all_urls>", "activeTab", "declarativeContent"
+  ],
+	"browser_action": {
+    "default_popup": "popup.html"
+  },
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}

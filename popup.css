@@ -1,0 +1,75 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  min-width: 350px;
+}
+
+* {
+  font-family: inherit;
+  box-sizing: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  background-color: #424242;
+  color: #ffffff;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  padding: 12px;
+}
+.container.succeed {
+  background: #7cb342;
+}
+.container.succeed button {
+  visibility: hidden;
+  opacity: 0;
+}
+
+button {
+  color: #F27FAA;
+  display: inline-block;
+  letter-spacing: .010em;
+  width: 140px;
+  line-height: 36px;
+  border-radius: 2px;
+  padding: 0 6px;
+  background: 0 0;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  text-shadow: 0;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .25s ease;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+button:hover {
+  background-color: rgba(158,158,158,.2);
+}
+
+.alert strong {
+  font-size: 1.1em;
+  display: block;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.has-mt-15 {
+  margin-top: 15px;
+}
